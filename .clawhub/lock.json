@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "skills": {
+    "tavily-search": {
+      "version": "1.0.0",
+      "installedAt": 1772179629340
+    },
+    "summarize": {
+      "version": "1.0.0",
+      "installedAt": 1772179651934
+    },
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1772179669274
+    },
+    "find-skills": {
+      "version": "0.1.0",
+      "installedAt": 1772179684028
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1772179706161
+    },
+    "obsidian": {
+      "version": "1.0.0",
+      "installedAt": 1772179728789
+    },
+    "notion": {
+      "version": "1.0.0",
+      "installedAt": 1772179754667
+    },
+    "weather": {
+      "version": "1.0.0",
+      "installedAt": 1772179823440
+    },
+    "tencentcloud-lighthouse-skill": {
+      "version": "1.0.0",
+      "installedAt": 1772179839761
+    }
+  }
+}
