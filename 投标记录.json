@@ -1,0 +1,39 @@
+{
+  "last_updated": "2026-03-08 12:00",
+  "platforms": {
+    "程序员客栈": {
+      "status": "签约中",
+      "progress": "40%",
+      "projects_found": 20,
+      "bids_submitted": 0,
+      "notes": "平台为作品展示模式，需完成签约流程才能接单。已找到 20 个 Python 相关案例作品。",
+      "project_examples": [
+        "常规逆向某观测网站",
+        "数据加密电商网站的数据提取",
+        "批量爬取多页视频代码",
+        "Coze 与飞书研报生成助手",
+        "Amazon 商品数据采集分析"
+      ]
+    },
+    "电鸭社区": {
+      "status": "待探索",
+      "progress": "0%",
+      "projects_found": 0,
+      "bids_submitted": 0,
+      "notes": "之前网络问题，需重试"
+    },
+    "GitHub": {
+      "status": "已优化",
+      "progress": "80%",
+      "notes": "README 完成，已推送"
+    }
+  },
+  "total_income": 0,
+  "total_bids": 0,
+  "next_actions": [
+    "完成程序员客栈签约流程",
+    "尝试电鸭社区",
+    "技术文章发布",
+    "GitHub 持续优化"
+  ]
+}

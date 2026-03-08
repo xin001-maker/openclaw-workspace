@@ -1,0 +1,30 @@
+[
+  {
+    "name": "码市",
+    "url": "https://codemart.com",
+    "accessible": false,
+    "error": "Page.goto: net::ERR_CONNECTION_REFUSED at https://codemart.com/\nCall log:\n  - navigating to \"https:/"
+  },
+  {
+    "name": "开源众包",
+    "url": "https://zb.oschina.net",
+    "accessible": false,
+    "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://zb.oschina.net/\", waiting "
+  },
+  {
+    "name": "实现网",
+    "url": "https://shixian.com",
+    "accessible": true,
+    "title": "实现网 - 按需雇佣 BAT 工程师、设计师",
+    "has_projects": true,
+    "content_length": 1291
+  },
+  {
+    "name": "猪八戒",
+    "url": "https://www.zbj.com",
+    "accessible": true,
+    "title": "猪八戒网-品质企业服务 就找猪八戒",
+    "has_projects": true,
+    "content_length": 4675
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "name": "PHPSESSID",
+    "value": "34ntp6et0e35vek7tm7fskdod8",
+    "domain": ".proginn.com",
+    "path": "/",
+    "expires": 1773563772.911879,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "user_from_type",
+    "value": "%2Findex",
+    "domain": ".proginn.com",
+    "path": "/",
+    "expires": 1775550972.912017,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "login_uid_test",
+    "value": "1",
+    "domain": ".proginn.com",
+    "path": "/",
+    "expires": 1775550972.912039,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "HMACCOUNT_BFESS",
+    "value": "0985778223288D00",
+    "domain": ".hm.baidu.com",
+    "path": "/",
+    "expires": 1807518973.130614,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "Hm_lvt_c92adf6182a39eb23c24cf43abc3f439",
+    "value": "1772958973",
+    "domain": ".proginn.com",
+    "path": "/",
+    "expires": 1804494982,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "HMACCOUNT",
+    "value": "0985778223288D00",
+    "domain": ".proginn.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "client_id",
+    "value": "69ad3502ec775",
+    "domain": ".www.proginn.com",
+    "path": "/",
+    "expires": 1807518979.030178,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "Hm_lpvt_c92adf6182a39eb23c24cf43abc3f439",
+    "value": "1772958982",
+    "domain": ".proginn.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  }
+]

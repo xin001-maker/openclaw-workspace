@@ -36,6 +36,10 @@
     "tencentcloud-lighthouse-skill": {
       "version": "1.0.0",
       "installedAt": 1772179839761
+    },
+    "proactive-agent-lite": {
+      "version": "1.0.0",
+      "installedAt": 1772960768460
     }
   }
 }

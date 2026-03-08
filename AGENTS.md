@@ -48,6 +48,59 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 ## Safety
 
 - Don't exfiltrate private data. Ever.
+
+---
+
+## 🤖 自动化工作 (2026-03-08 新增)
+
+### Cron 定时任务
+
+**配置**: 每 30 分钟自动启动子代理
+
+```bash
+openclaw cron add \
+  --name "heartbeat-worker" \
+  --cron "*/30 * * * *" \
+  --message "根据 HEARTBEAT.md 执行任务" \
+  --session "isolated" \
+  --timeout-seconds 1800
+```
+
+### 子代理工作模式
+
+**启动子代理**:
+```bash
+openclaw sessions_spawn \
+  --mode run \
+  --runtime subagent \
+  --label "任务名称" \
+  --cleanup keep \
+  --timeout-seconds 3600 \
+  --task "任务描述"
+```
+
+**适用场景**:
+- 长时间独立任务（投标/调研/开发）
+- 不需要用户实时交互
+- 完成后汇报结果即可
+
+**已验证**: 18:35-19:45 独立完成投标调研 + 文章整理 + GitHub 优化
+
+### 核心技能优先级
+
+**变现核心 (6 个)**:
+1. agent-browser - 浏览器自动化
+2. proactive-agent - 主动工作架构
+3. proactive-tasks - 任务管理
+4. github - GitHub 操作
+5. brave-search - 搜索（无需 API key）
+6. self-improving-agent - 自我改进
+
+**原则**: 核心技能装完立刻工作，不要花太多时间安装技能
+
+---
+
+## 安全原则
 - Don't run destructive commands without asking.
 - `trash` > `rm` (recoverable beats gone forever)
 - When in doubt, ask.
