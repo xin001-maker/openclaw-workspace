@@ -61,3 +61,11 @@ if __name__ == "__main__":
     folder = sys.argv[1]
     quality = int(sys.argv[2]) if len(sys.argv) > 2 else 80
     compress_images(folder, quality)
+
+# 命令行入口
+if __name__ == '__main__':
+    import sys
+    if len(sys.argv) < 2:
+        print("用法：python compress_images.py <图片文件夹> [压缩质量 1-100]")
+        print("示例：python compress_images.py ./photos 80")
+        sys.exit(1)

@@ -1,0 +1,11 @@
+# Python 效率工具箱依赖
+
+# Excel 处理
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# 图片处理
+Pillow>=10.0.0
+
+# 可选：命令行美化
+rich>=13.0.0
