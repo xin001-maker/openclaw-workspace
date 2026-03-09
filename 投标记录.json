@@ -1,39 +1,50 @@
 {
-  "last_updated": "2026-03-08 12:00",
+  "last_updated": "2026-03-10 04:07",
   "platforms": {
     "程序员客栈": {
-      "status": "签约中",
+      "status": "登录过期",
       "progress": "40%",
-      "projects_found": 20,
-      "bids_submitted": 0,
-      "notes": "平台为作品展示模式，需完成签约流程才能接单。已找到 20 个 Python 相关案例作品。",
-      "project_examples": [
-        "常规逆向某观测网站",
-        "数据加密电商网站的数据提取",
-        "批量爬取多页视频代码",
-        "Coze 与飞书研报生成助手",
-        "Amazon 商品数据采集分析"
-      ]
-    },
-    "电鸭社区": {
-      "status": "待探索",
-      "progress": "0%",
       "projects_found": 0,
       "bids_submitted": 0,
-      "notes": "之前网络问题，需重试"
+      "notes": "Cookies 已过期，需要重新登录。已尝试自动投标但未成功。",
+      "last_attempt": "2026-03-10 04:07"
+    },
+    "实现网": {
+      "status": "需登录",
+      "progress": "60%",
+      "projects_found": 20,
+      "bids_submitted": 0,
+      "notes": "找到 20 个可投标项目，包括 AI 视频生成 APP、Python 量化交易等。需要登录后投标。",
+      "last_attempt": "2026-03-10 04:05",
+      "project_examples": [
+        "AI 视频生成 APP 开发 - 1500 元/月",
+        "Python 量化交易系统开发",
+        "教育科技类网站开发",
+        "脚本项目 - 预算高",
+        "高难度协议定制"
+      ]
     },
     "GitHub": {
       "status": "已优化",
-      "progress": "80%",
-      "notes": "README 完成，已推送"
+      "progress": "100%",
+      "notes": "README 已完成优化并推送，包含产品服务、技术栈、项目案例、联系方式"
     }
   },
+  "bids": [
+    {
+      "timestamp": "2026-03-10T04:07:19",
+      "platform": "程序员客栈",
+      "project_url": "https://www.proginn.com/remote",
+      "project_title": "远程项目列表",
+      "status": "查看项目，登录过期需重新认证"
+    }
+  ],
+  "total_bids": 1,
   "total_income": 0,
-  "total_bids": 0,
   "next_actions": [
-    "完成程序员客栈签约流程",
-    "尝试电鸭社区",
-    "技术文章发布",
-    "GitHub 持续优化"
+    "重新登录程序员客栈并完成投标",
+    "登录实现网并投标 5-10 个项目",
+    "技术文章发布到知乎/掘金",
+    "准备闲鱼/小红书发布材料"
   ]
 }
