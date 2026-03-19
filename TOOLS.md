@@ -49,4 +49,11 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ---
 
+### 用户偏好
+
+- **文章默认**: 公众号文章系列（5 篇 AI 副业变现主题）
+- **技术文章**: 需明确说明"技术文章"时才发送
+
+---
+
 Add whatever helps you do your job. This is your cheat sheet.
